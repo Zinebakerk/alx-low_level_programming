@@ -21,4 +21,5 @@ void print_to_98(int n)
 			num--;
 		}
 	}
+        printf("%d\n", num);
 }
