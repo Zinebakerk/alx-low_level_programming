@@ -11,15 +11,11 @@ int c = 0;
 
 while (c < 15)
 {
-if (c >= 10)
+if (c > 9)
 {
 _putchar((c / 10) + 48);
-_putchar((c % 10) + 48);
 }
-else
-{
-_putchar(c + 48);
-}
+_putchar(c % 10 + 48);
 c++;
 }
 _putchar('\n');
