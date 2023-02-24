@@ -5,20 +5,21 @@
  */
 int main(void)
 {
-int b = 1;
+int b;
+b = 1;
 while (b <= 100)
 {
 if (b % 3 == 0 && b % 5 == 0)
 {
-printf("FizzBuzz ");
+printf("FizzBuzz");
 }
 else if (b % 3 == 0)
 {
-printf("Fizz ");
+printf("Fizz");
 }
 else if (b % 5 == 0)
 {
-printf("Buzz ");
+printf("Buzz");
 }
 else
 {
