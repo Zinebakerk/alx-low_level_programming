@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * main - prints numbers and some expressions
  * Return: 0 if code succesfluly ran
