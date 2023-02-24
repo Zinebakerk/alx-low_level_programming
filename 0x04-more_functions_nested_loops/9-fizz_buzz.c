@@ -24,6 +24,10 @@ else
 {
 printf("%d ", b);
 }
+if (b != 100)
+{
+printf(" ");
+}
 b++;
 }
 printf("\n");
