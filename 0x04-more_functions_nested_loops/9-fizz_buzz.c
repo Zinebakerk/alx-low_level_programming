@@ -23,7 +23,7 @@ printf("Buzz");
 }
 else
 {
-printf("%d ", b);
+printf("%d", b);
 }
 if (b != 100)
 {
@@ -32,5 +32,6 @@ printf(" ");
 b++;
 }
 printf("\n");
+
 return (0);
 }
