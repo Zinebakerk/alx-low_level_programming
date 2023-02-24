@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * fizz_buzz - prints numbers from 1 to 100
+ * main - prints numbers and some expressions
+ * Return: 0 if code succesfluly ran
  */
 int main(void)
 {
