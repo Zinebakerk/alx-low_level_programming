@@ -7,13 +7,13 @@ void print_square(int size)
 {
 	int i = 0;
 	int j = 0;
-while (i < size)
-{
 if (size <= 0)
 {
 _putchar('\n');
 }
-else
+while (i < size)
+{
+if (size > 0)
 {
 while (j < size)
 {
