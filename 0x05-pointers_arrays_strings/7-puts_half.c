@@ -11,6 +11,7 @@ int j;
 for (i = 0; str[i] != '\0'; i++)
 {
 }
+i++;
 half = i / 2;
 for (j = half ; str[j] != '\0'; j++)
 {
