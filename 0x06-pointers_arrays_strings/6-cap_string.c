@@ -12,7 +12,7 @@ for (i = 0; str[i] != '\0'; i++)
 if (str[0] >= 97 && str[0] <= 122)
 {
 str[0] -= 32;
-}	
+}
 if (str[i] == 46 || str[i] == 10
 || str[i] == 9 || str[i] == 32 || str[i] == 33
 || str[i] == 39  || str[i] == 40 || str[i] == 41
