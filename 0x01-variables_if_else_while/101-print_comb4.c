@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
-*  * main - main block
-*   * print all possible combinationsof single-digit
-*    * Return: 0 if code executed successfuly
-*     */
+ * main - main block
+ * print all possible combinationsof single-digit
+ * Return: 0 if code executed successfuly
+ */
 int main(void)
 {
 int i, j, k;
