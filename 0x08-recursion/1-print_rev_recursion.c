@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
-* rev_recursion - function that prints a string in reverse
+* rev_printer - function that prints a string in reverse
 * @s: char data type
 * @n: int data type
 */
