@@ -4,15 +4,15 @@
 #include <stdarg.h>
 
 /**
- *  * struct printer - a struct type defining a printer
- *   * @print: a function pointer to a function that prints
- *    * a data type corresponding to symbol
- *     * @symbol: a symbol representing a data type
- *      */
+ * struct printer - a struct type defining a printer
+ * @print: a function pointer to a function that prints
+ * a data type corresponding to symbol
+ * @symbol: a symbol representing a data type
+ */
 typedef struct printer
 {
-		char *symbol;
-			void (*print)(va_list arg);
+char *symbol;
+void (*print)(va_list arg);
 
 } printer_t;
 
