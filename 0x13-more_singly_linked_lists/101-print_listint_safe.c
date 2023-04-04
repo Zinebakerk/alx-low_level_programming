@@ -22,7 +22,7 @@ return (counter + 1);
 }
 
 /**
- * print_listint_safe -function that  prints a listint_t 
+ * print_listint_safe -function that  prints a listint_t
  * @head: pointer to the list
  * Return:  number of nodes in the list
  */
