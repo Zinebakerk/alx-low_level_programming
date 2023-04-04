@@ -1,6 +1,6 @@
 #include "lists.h"
 
-/** 
+/**
  * free_listint2 - function that frees a listint_t list.
  * @head: pointer to the pointer to the list
  */
