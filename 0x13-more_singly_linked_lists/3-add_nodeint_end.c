@@ -31,7 +31,7 @@ else
 {
 follow = *head;
 while (follow->next)
-tail = follow->next;
+follow = follow->next;
 follow->next = new;
 }
 
