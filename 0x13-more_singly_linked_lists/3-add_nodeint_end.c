@@ -17,14 +17,17 @@ listint_t *new = malloc(sizeof(listint_t));
 if (!new)
 return (NULL);
 
-new->next = NULL; /* as it will be at the end */
+new->next = NULL;
+
+/* as it will be at the end */
 new->n = n;
 
-if (!(*head)) /* if the new node is the first node */
+if (!(*head))
+
 {
 *head = new;
 }
-else /* Traverse the linked list until reaching the end */
+else
 {
 follow = *head;
 while (follow->next)
