@@ -1,4 +1,2 @@
-0x00. C - Hello, World
-For this project, we expect you to look at this concept:
+0x13. C - More singly linked lists
 
-C programming
