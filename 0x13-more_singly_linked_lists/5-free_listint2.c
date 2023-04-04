@@ -15,7 +15,7 @@ vis = *head;
 while (vis)
 {
 front_node = vis->next;
-free(front_node);
+free(vis);
 vis = front_node;
 }
 *head = NULL;
