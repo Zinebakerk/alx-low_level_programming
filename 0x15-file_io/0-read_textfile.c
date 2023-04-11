@@ -2,7 +2,7 @@
 
 /**
  * read_textfile -function that read a text file and print to POSIX stdout
- * @filename: char string 
+ * @filename: char string
  * @letters: number of letters
  * Return: number of letters that should be read and printed, or 0 if error
  */
