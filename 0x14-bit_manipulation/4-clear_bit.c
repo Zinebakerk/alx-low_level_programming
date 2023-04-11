@@ -13,7 +13,7 @@ if (index > 63)
 return (-1);
 hold = 1 << index;
 
-if (*n >> hold)
+if (*n & hold)
 *n ^= hold;
 return (1);
 }
