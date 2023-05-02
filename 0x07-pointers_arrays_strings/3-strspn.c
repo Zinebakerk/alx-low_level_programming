@@ -19,9 +19,10 @@ c = 0;
 while (s[i] != '\0')
 {
 j = 0;
+
 while (accept[j] != '\0')
 {
-if (s[i] == accept[j])
+if (accept[j] == s[i])
 {
 c++;
 break;
@@ -29,7 +30,9 @@ break;
 j++;
 }
 if (accept[j] == '\0')
+{
 break;
+}
 i++;
 }
 return (c);
