@@ -9,7 +9,7 @@
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
-	unsigned long int mask;
+	unsigned long int number;
 
 	number = 1 << index;
 	if (index > 63)
