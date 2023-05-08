@@ -30,7 +30,7 @@ return (0);
 }
 
 free(buff);
-close(o);
+close(opener);
 
 return (writer);
 }
